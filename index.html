@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Seaside | Home</title>
+ <!-- Scroll Reveal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
+  integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- Remix Icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css"
+  integrity="sha512-i5VzKip7owqOGjb0YTF8MR2J9yBVO3FLHeazKzLp354XYTmKcqEU3UeFYUw82R8tV6JqxeATOfstCfpfPhbyEA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+ <header class="header" id="header">
+
+  <nav class="nav container" id="nav">
+   <a href="./index.html" class="logo">Seaside</a>
+   <div class="nav-mobile">
+    <ul class="list">
+     <li class="list-item">
+      <a href="#showcase" class="list-link current">Home</a>
+     </li>
+     <li class="list-item">
+      <a href="#popular-destinations" class="list-link">Destinations</a>
+     </li>
+     <li class="list-item">
+      <a href="#plan-trip" class="list-link">Plan trip</a>
+     </li>
+     <li class="list-item lg-screen-hidden">
+      <a href="#newsletter" class="list-link">Book now</a>
+     </li>
+    </ul>
+   </div>
+
+   <a href="#" class="btn sm-screen-hidden">Book now</a>
+   
+   <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">
+    <i class="ri-menu-3-line menu-open-icon"></i>
+    <i class="ri-close-fill menu-close-icon"></i>
+   </div>
+  </nav>
+ </header>
+ 
+ <main>
+
+  <section class="showcase section" id="section">
+    <div class="showcase-container container d-grid">
+      <div class="showcase-data order-2">
+        <span class="tagline">Begin the journey</span>
+        <h1 class="title main-title">
+          Heal your soul at the <span class="accent-text">beach!</span>
+        </h1>
+        <p class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, fuga!
+        </p>
+        <a href="#" class="btn">Explore</a>
+      </div>
+      <div class="image-group order-1 d-grid">
+        <div class="image-box image-left">
+          <img src="./images/beach1.jpg" alt="image1">
+        </div>
+        <div class="image-box image-center">
+          <img src="./images/beach2.jpg" alt="image2">
+        </div>
+        <div class="image-box image-right">
+          <img src="./images/beach3.jpg" alt="image3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular-destinations section" id="popular-destinations">
+    <div class="popular-destinations-container container d-grid">
+      <div class="popular-destinations-data">
+        <span class="tagline">Popular Destinations</span>
+        <h1 class="title">
+          Beaches with the most <span class="accent-text">visitors</span> this year
+        </h1>
+        <p class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, fuga!
+        </p>
+        <a href="#" class="btn">Explore</a>
+      </div>
+
+      <div class="beach-data-wrapper image-box">
+        <div class="beach-data">
+          <div class="beach-data-inner width-50">
+            <h3 class="beach-name">Navagio beach</h3>
+            <span class="beach-location">
+              <span class="accent-text">
+                <i class="ri-map-pin-line"></i>
+              </span>Zakynthos, Ionian
+            </span>
+          </div>
+          <a href="#" class="btn place-items-center">
+            <div class="ri-arrow-right-s-line"></div>
+          </a>
+        </div>
+        <img src="./images/navagio.jpg" alt="beach">
+      </div>
+
+      <div class="secondary-grid d-grid">
+        <div class="beach-data-wrapper image-box image-box-left">
+          <div class="beach-data">
+            <div class="beach-data-inner">
+              <h3 class="beach-name">Vai beach</h3>
+              <span class="beach-location">
+                <span class="accent-text">
+                  <i class="ri-map-pin-line"></i>
+                </span>Lassithi, Crete
+              </span>
+            </div>
+            <a href="#" class="btn place-items-center">
+              <div class="ri-arrow-right-s-line"></div>
+            </a>
+          </div>
+          <img src="./images/vai.jpg" alt="beach">
+        </div>
+
+        <div class="beach-data-wrapper image-box image-box-center">
+          <div class="beach-data">
+            <div class="beach-data-inner width-50">
+              <h3 class="beach-name">Lindos beach</h3>
+              <span class="beach-location">
+                <span class="accent-text">
+                  <i class="ri-map-pin-line"></i>
+                </span>Lindos, Rhodes
+              </span>
+            </div>
+            <a href="#" class="btn place-items-center">
+              <div class="ri-arrow-right-s-line"></div>
+            </a>
+          </div>
+          <img src="./images/lindos.jpg" alt="beach">
+        </div>
+
+        <div class="beach-data-wrapper image-box image-box-right">
+          <div class="beach-data">
+            <div class="beach-data-inner">
+              <h3 class="beach-name">Kastani beach</h3>
+              <span class="beach-location">
+                <span class="accent-text">
+                  <i class="ri-map-pin-line"></i>
+                </span>Skopelos, Sporades
+              </span>
+            </div>
+            <a href="#" class="btn place-items-center">
+              <div class="ri-arrow-right-s-line"></div>
+            </a>
+          </div>
+          <img src="./images/kastani.jpg" alt="beach">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan-trip section" id="plan-trip">
+    <div class="plan-trip-container container d-grid">
+      <div class="plan-trip-data">
+        <span class="tagline">Planning your trip</span>
+        <h1 class="title main-title">
+          Let's <span class="accent-text">explore</span> your dream beach now!
+        </h1>
+        <p class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, fuga!
+        </p>
+        <a href="#" class="btn">Explore</a>
+      </div>
+      <div class="beach-data-wrapper image-box">
+        <img src="./images/plantrip.jpg" alt="plan trip">
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter section" id="newsletter">
+    <div class="newsletter-container container">
+      <div class="newsletter-container-inner">
+        <h2 class="title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur voluptate, quo provident tempore laborum molestias nesciunt iste nam sequi.
+        </h2>
+        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi veniam amet fugit quam quia officiis, aliquid quibusdam reiciendis ipsum error delectus, quod obcaecati placeat vel in quisquam ipsam. Neque, quod.</p>
+        <div class="btn-group">
+          <a href="#" class="btn btn-light">Subscribe now</a>
+          <a href="#" class="btn">Get to a quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer section">
+    <div class="footer-container container">
+      <div class="footer-container-inner d-grid">
+
+        <div>
+          <h6 class="title footer-title">Company</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Company</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Company</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Sample link</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-information">
+          <h6 class="title footer-title">Contact</h6>
+          <address>
+            <span>123 Mitropoleos str</span>
+            <span>Thessaloniki, GR 54633</span>
+            <a href="tel 2310-555-555" class="underline">(2310)-555-555</a>
+            <a href="mailto" class="underline">email@email.com</a>
+          </address>
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="ri-twitter-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr class="footer-separator">
+
+      <span class="copyright">&copy; 2024 All rights reserved.</span>
+    </div>
+  </footer>
+
+ </main>
+
+ <script src="./js/main.js"></script>
+</body>
+</html>
